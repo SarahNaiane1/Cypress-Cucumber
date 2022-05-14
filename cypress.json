@@ -1,0 +1,12 @@
+{
+    "chromeWebSecurity": false,
+    "viewportHeight": 1600,
+    "baseUrl": "https://buger-eats.vercel.app/",
+    "testFiles": "**/*.{feature,features}",
+    "defaultCommandTimeout": 30000,
+    "retries": {
+      "runMode": 2,
+      "openMode": 0
+    }
+   
+  }

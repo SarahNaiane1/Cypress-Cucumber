@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Acessa a página e acessa o formulário",
+    "line": 1,
+    "id": "acessa-a-página-e-acessa-o-formulário",
+    "tags": [],
+    "uri": "homePage.feature",
+    "elements": [
+      {
+        "id": "acessa-a-página-e-acessa-o-formulário;acessa-a-página-e-acessa-o-formulário",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Acessa a página e acessa o formulário",
+        "tags": [],
+        "type": "scenargitio",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "acesso o site Buger Eats",
+            "result": {
+              "status": "passed",
+              "duration": 199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "acesso o botão  de Cadastre-se para fazer entregas",
+            "result": {
+              "status": "passed",
+              "duration": 717000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "acesso o formulário",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

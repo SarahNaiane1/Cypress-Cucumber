@@ -1,0 +1,52 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Acessa a página e acessa o formulário",
+    "line": 1,
+    "id": "acessa-a-página-e-acessa-o-formulário",
+    "tags": [],
+    "uri": "acessPage.feature",
+    "elements": [
+      {
+        "id": "acessa-a-página-e-acessa-o-formulário;acessa-a-página-e-acessa-o-formulário",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Acessa a página e acessa o formulário",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "acesso o site Buger Eats",
+            "result": {
+              "status": "passed",
+              "duration": 269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "acesso o botão  de Cadastre-se para fazer entregas",
+            "result": {
+              "status": "failed",
+              "duration": 30741000000,
+              "error_message": "AssertionError: Timed out retrying after 30000ms: expected '<h1>' to have text 'Cadastre-se para', but the text was 'Cadastre-se para  fazer entregas'\n    + expected - actual\n\n    -'Cadastre-se para  fazer entregas'\n    +'Cadastre-se para'\n\n    at HomePage.clickButton (https://buger-eats.vercel.app/__cypress/tests?p=../Cypress%2Bcumcuber/cypress/integration/features/acessPage.feature:83:39)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=../Cypress%2Bcumcuber/cypress/integration/features/acessPage.feature:47:25)\n    at Context.resolveAndRunStepDefinition (https://buger-eats.vercel.app/__cypress/tests?p=../Cypress%2Bcumcuber/cypress/integration/features/acessPage.feature:10530:29)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=../Cypress%2Bcumcuber/cypress/integration/features/acessPage.feature:9851:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "acesso o formulário",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

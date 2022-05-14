@@ -1,8 +1,8 @@
 <h1 align="center">
     <a href="https://docs.cypress.io/guides/getting-started/installing-cypress">🔗 Cypress</a>
-    <a hef="https://cucumber.io/docs/cucumber/">🔗 Cucumber</a>
+    <a href="https://cucumber.io/docs/cucumber/"> Cucumber</a>
 </h1>
-<p align="center">🚀 Automatize testes funcionais (e2e), de API Rest (backend) e de interface gráfica (frontend) com apenas uma ferramenta</p>
+<p align="center">🚀 Testes automatizados com Cypress e Cucumber</p>
 
 # Sobre 
 Cypress é uma ferramenta de teste de front-end

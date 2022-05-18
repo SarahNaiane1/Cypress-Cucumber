@@ -1,19 +1,19 @@
 [
   {
     "keyword": "Feature",
-    "name": "Acessa a página e acessa o formulário",
+    "name": "Cadastrar Usuários para se tornar entregador",
     "line": 1,
-    "id": "acessa-a-página-e-acessa-o-formulário",
+    "id": "cadastrar-usuários-para-se-tornar-entregador",
     "tags": [],
     "uri": "homePage.feature",
     "elements": [
       {
-        "id": "acessa-a-página-e-acessa-o-formulário;acessa-a-página-e-acessa-o-formulário",
+        "id": "cadastrar-usuários-para-se-tornar-entregador;preencher-campos-de-dados",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Acessa a página e acessa o formulário",
+        "name": "Preencher campos de dados",
         "tags": [],
-        "type": "scenargitio",
+        "type": "scenario",
         "steps": [
           {
             "arguments": [],
@@ -22,27 +22,76 @@
             "name": "acesso o site Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 199000000
+              "duration": 1483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "acesso o botão  de Cadastre-se para fazer entregas",
+            "result": {
+              "status": "passed",
+              "duration": 782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "acesso o formulário",
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "preencho os campos  de dados",
+            "result": {
+              "status": "passed",
+              "duration": 1439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "preencho os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 1061000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "preencho os campos de metodo de entrega",
+            "result": {
+              "status": "failed",
+              "duration": 141000000,
+              "error_message": "TypeError: Cannot read property 'filePath' of undefined\n    at getFixtureInfo (https://buger-eats.vercel.app/__cypress/tests?p=cypress/support/index.js:496:28)\n    at Array.map (<anonymous>)\n    at Context.attachFile (https://buger-eats.vercel.app/__cypress/tests?p=cypress/support/index.js:663:34)\nFrom previous event:\n    at CommandQueue.runCommand (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:170918:8)\n    at next (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:171061:19)\n    at https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:171090:16"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 5,
-            "name": "acesso o botão  de Cadastre-se para fazer entregas",
+            "line": 10,
+            "name": "clico no botão de  cadastra-se para fazer entrega",
             "result": {
-              "status": "passed",
-              "duration": 717000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
-            "name": "acesso o formulário",
+            "line": 11,
+            "name": "email enviado e entregador cadastrado",
             "result": {
-              "status": "passed",
-              "duration": 4000000
+              "status": "skipped"
             }
           }
         ]

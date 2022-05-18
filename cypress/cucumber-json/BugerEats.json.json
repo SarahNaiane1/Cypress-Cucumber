@@ -1,0 +1,192 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Cadastrar Usuários para se tornar entregador",
+    "line": 1,
+    "id": "cadastrar-usuários-para-se-tornar-entregador",
+    "tags": [],
+    "uri": "BugerEats.feature",
+    "elements": [
+      {
+        "id": "cadastrar-usuários-para-se-tornar-entregador;preencher-campos-de-dados",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Preencher campos de dados",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "acesso o site Buger Eats",
+            "result": {
+              "status": "passed",
+              "duration": 1557000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "acesso o botão  de Cadastre-se para fazer entregas",
+            "result": {
+              "status": "passed",
+              "duration": 752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "acesso o formulário",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "preencho os campos  de dados",
+            "result": {
+              "status": "passed",
+              "duration": 1451000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "preencho os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 1173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "preencho os campos de metodo de entrega",
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "clico no botão de  cadastra-se para fazer entrega",
+            "result": {
+              "status": "passed",
+              "duration": 169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "aparece modal informando que foi enviado dados",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastrar-usuários-para-se-tornar-entregador;cpf-inválido",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "CPF inválido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "acesso o site Buger Eats",
+            "result": {
+              "status": "passed",
+              "duration": 401000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "acesso o botão  de Cadastre-se para fazer entregas",
+            "result": {
+              "status": "passed",
+              "duration": 691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "acesso o formulário",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "preencho os campos  de dados com CPF inválido",
+            "result": {
+              "status": "passed",
+              "duration": 2100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "preencho os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 789000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "preencho os campos de metodo de entrega",
+            "result": {
+              "status": "passed",
+              "duration": 106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "clico no botão de  cadastra-se para fazer entrega",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "aparece mensagem de erro do CPF inválido",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

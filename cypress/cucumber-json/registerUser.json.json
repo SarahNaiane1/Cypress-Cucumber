@@ -1,0 +1,131 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Cadastrar Usuários para se tornar entregador",
+    "line": 1,
+    "id": "cadastrar-usuários-para-se-tornar-entregador",
+    "tags": [],
+    "uri": "registerUser.feature",
+    "elements": [
+      {
+        "id": "cadastrar-usuários-para-se-tornar-entregador;preencher-campos-de-dados",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Preencher campos de dados",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "acesso o site Buger Eats",
+            "result": {
+              "status": "passed",
+              "duration": 168000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "acesso o botão  de Cadastre-se para fazer entregas",
+            "result": {
+              "status": "passed",
+              "duration": 737000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "acesso o formulário",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "preencho os campos  de dados",
+            "result": {
+              "status": "passed",
+              "duration": 1335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "campos preenchidos",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "cadastrar-usuários-para-se-tornar-entregador;preencher-campos-de-endereço",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Preencher campos de endereço",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "acesso o site Buger Eats",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "acesso o botão  de Cadastre-se para fazer entregas",
+            "result": {
+              "status": "passed",
+              "duration": 714000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "acesso o formulário",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "preencho os campos de endereço",
+            "result": {
+              "status": "failed",
+              "error_message": "ReferenceError: RegisterPage is not defined\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/registerUser.feature:79:3)\n    at Context.resolveAndRunStepDefinition (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/registerUser.feature:10594:29)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/registerUser.feature:9915:35)\nFrom previous event:\n    at Context.thenFn (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:155288:63)\n    at Context.then (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:155740:21)\n    at Context.<anonymous> (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:172081:19)\n    at https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:170939:15\nFrom previous event:\n    at CommandQueue.runCommand (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:170918:8)\n    at next (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:171061:19)\n    at https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:171090:16\nFrom previous event:\n    at next (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:171061:39)\nFrom previous event:\n    at https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:185391:77\nFrom previous event:\n    at CommandQueue.run (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:185386:21)\n    at CommandQueue.run (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:171124:15)\n    at $Cy.cy.<computed> [as then] (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:172120:18)\n    at Context.runnable.fn (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:172338:19)\n    at callFn (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125099:21)\n    at Test.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125086:7)\n    at https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:179195:30\nFrom previous event:\n    at Object.onRunnableRun (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:179180:19)\n    at $Cypress.action (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:168586:28)\n    at Test.Runnable.run (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:176876:13)\n    at Runner.../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125758:10)\n    at https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125884:12\n    at next (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125667:14)\n    at https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125677:7\n    at next (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125579:14)\n    at Hook.<anonymous> (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125640:7)\n    at next (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:179093:24)\n    at https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:179122:13\nFrom previous event:\n    at onNext (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:179119:59)\n    at done (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125039:5)\n    at callFn (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125122:7)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125086:7)\n    at https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:179195:30\nFrom previous event:\n    at Object.onRunnableRun (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:179180:19)\n    at $Cypress.action (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:168586:28)\n    at Hook.Runnable.run (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:176876:13)\n    at next (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125601:10)\n    at https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:125645:5\n    at timeslice (https://buger-eats.vercel.app/__cypress/runner/cypress_runner.js:119571:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "campos preenchidos",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

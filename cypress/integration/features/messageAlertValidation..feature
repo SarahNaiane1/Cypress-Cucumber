@@ -4,7 +4,7 @@ Feature: Validar mensagem de erros
     Scenario: Clicar no botão de Cadastra-se sem preencher formularío com nenhum dado
         Given acesso o site Buger Eats
         And acesso o botão  de Cadastre-se para fazer entregas
-         And acesso o formulário 
+        And acesso o formulário 
         When clico no botão de  cadastra-se para fazer entrega
         Then aparece mensagems de erros dos campos que não foram preenchidos    
 
@@ -67,6 +67,7 @@ Feature: Validar mensagem de erros
 
 
   Scenario:Cadastrar com  Dados Pessoais , Endereço, fazer  Upload de CNH e não escolher Metódo de Entrega
+        Given acesso o site Buger Eats
         And acesso o botão  de Cadastre-se para fazer entregas
         And acesso o formulário 
         And preencho os campos  de dados 
@@ -82,6 +83,6 @@ Feature: Validar mensagem de erros
         And acesso o formulário 
         And preencho os campos  de dados 
         And preencho os campos de endereço
-        And preencho os campos de metodo de entrega
+        And clico no metodo de entrega
         When clico no botão de  cadastra-se para fazer entrega
         Then aparece  mensagem  para poder fazer upload da cnh

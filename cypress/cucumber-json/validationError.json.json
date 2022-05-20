@@ -8,6 +8,66 @@
     "uri": "validationError.feature",
     "elements": [
       {
+        "id": "validar-mensagem-de-erros;clicar-no-botão-de-cadastra-se-sem-preencher-formularío-com-nenhum-dado",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Clicar no botão de Cadastra-se sem preencher formularío com nenhum dado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "acesso o site Buger Eats",
+            "result": {
+              "status": "passed",
+              "duration": 335000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "acesso o botão  de Cadastre-se para fazer entregas",
+            "result": {
+              "status": "passed",
+              "duration": 697000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "acesso o formulário",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "clico no botão de  cadastra-se para fazer entrega",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "aparece mensagems de erros dos campos que não foram preenchidos",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
         "id": "validar-mensagem-de-erros;cadastrar-entregar-com--dados-pessoais,-endereço-e-método-de-entrega-sem-preencher-o-campo-de-cpf",
         "keyword": "Scenario",
         "line": 12,
@@ -22,7 +82,7 @@
             "name": "acesso o site Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 29020000000
+              "duration": 496000000
             }
           },
           {
@@ -31,8 +91,8 @@
             "line": 15,
             "name": "acesso o botão  de Cadastre-se para fazer entregas",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `#page-deliver > form > fieldset:nth-child(4) > ul > li:nth-child(2) > img`, but never found it.\n    at HomePage.clickButton (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:215:10)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:14:25)\n    at Context.resolveAndRunStepDefinition (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:20263:29)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:19584:35)"
+              "status": "passed",
+              "duration": 719000000
             }
           },
           {
@@ -41,7 +101,8 @@
             "line": 16,
             "name": "acesso o formulário",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 14000000
             }
           },
           {
@@ -50,7 +111,8 @@
             "line": 17,
             "name": "preencho os campos  de dados sem preencher CPF",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1086000000
             }
           },
           {
@@ -59,7 +121,8 @@
             "line": 18,
             "name": "preencho os campos de endereço",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 885000000
             }
           },
           {
@@ -68,7 +131,8 @@
             "line": 19,
             "name": "preencho os campos de metodo de entrega",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 104000000
             }
           },
           {
@@ -77,7 +141,8 @@
             "line": 20,
             "name": "clico no botão de  cadastra-se para fazer entrega",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 100000000
             }
           },
           {
@@ -86,7 +151,8 @@
             "line": 21,
             "name": "aparece  mensagem de erro do compo do cpf",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 13000000
             }
           }
         ]
@@ -106,7 +172,7 @@
             "name": "acesso o site Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 175000000
+              "duration": 151000000
             }
           },
           {
@@ -115,8 +181,8 @@
             "line": 26,
             "name": "acesso o botão  de Cadastre-se para fazer entregas",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `#page-deliver > form > fieldset:nth-child(4) > ul > li:nth-child(2) > img`, but never found it.\n    at HomePage.clickButton (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:215:10)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:14:25)\n    at Context.resolveAndRunStepDefinition (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:20263:29)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:19584:35)"
+              "status": "passed",
+              "duration": 692000000
             }
           },
           {
@@ -125,7 +191,8 @@
             "line": 27,
             "name": "acesso o formulário",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 15000000
             }
           },
           {
@@ -134,7 +201,8 @@
             "line": 28,
             "name": "preencho os campos  de dados sem preencher o nome",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1041000000
             }
           },
           {
@@ -143,7 +211,8 @@
             "line": 29,
             "name": "preencho os campos de endereço",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 870000000
             }
           },
           {
@@ -152,7 +221,8 @@
             "line": 30,
             "name": "preencho os campos de metodo de entrega",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 107000000
             }
           },
           {
@@ -161,7 +231,8 @@
             "line": 31,
             "name": "clico no botão de  cadastra-se para fazer entrega",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 110000000
             }
           },
           {
@@ -170,91 +241,8 @@
             "line": 32,
             "name": "aparece  mensagem de erro do compo do nome",
             "result": {
-              "status": "skipped"
-            }
-          }
-        ]
-      },
-      {
-        "id": "validar-mensagem-de-erros;cadastrar-entregar-com--dados-pessoais,-endereço-e-método-de-entrega-sem-preencher-o-campo-de-e-mail",
-        "keyword": "Scenario",
-        "line": 35,
-        "name": "Cadastrar entregar com  Dados Pessoais, Endereço e Método de entrega sem preencher o campo de E-mail",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 36,
-            "name": "acesso o site Buger Eats",
-            "result": {
               "status": "passed",
-              "duration": 415000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 37,
-            "name": "acesso o botão  de Cadastre-se para fazer entregas",
-            "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `#page-deliver > form > fieldset:nth-child(4) > ul > li:nth-child(2) > img`, but never found it.\n    at HomePage.clickButton (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:215:10)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:14:25)\n    at Context.resolveAndRunStepDefinition (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:20263:29)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:19584:35)"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 38,
-            "name": "acesso o formulário",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 39,
-            "name": "preencho os campos  de dados sem preencher o email",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 40,
-            "name": "preencho os campos de endereço",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 41,
-            "name": "preencho os campos de metodo de entrega",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 42,
-            "name": "clico no botão de  cadastra-se para fazer entrega",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "aparece  mensagem de erro do compo do email",
-            "result": {
-              "status": "skipped"
+              "duration": 25000000
             }
           }
         ]
@@ -274,7 +262,7 @@
             "name": "acesso o site Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 191000000
+              "duration": 803000000
             }
           },
           {
@@ -283,8 +271,8 @@
             "line": 48,
             "name": "acesso o botão  de Cadastre-se para fazer entregas",
             "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `#page-deliver > form > fieldset:nth-child(4) > ul > li:nth-child(2) > img`, but never found it.\n    at HomePage.clickButton (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:215:10)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:14:25)\n    at Context.resolveAndRunStepDefinition (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:20263:29)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:19584:35)"
+              "status": "passed",
+              "duration": 721000000
             }
           },
           {
@@ -293,7 +281,8 @@
             "line": 49,
             "name": "acesso o formulário",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 9000000
             }
           },
           {
@@ -302,7 +291,8 @@
             "line": 50,
             "name": "preencho os campos  de dados",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1237000000
             }
           },
           {
@@ -311,7 +301,8 @@
             "line": 51,
             "name": "preencho os campos de endereço sem preencher o cep",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 584000000
             }
           },
           {
@@ -320,7 +311,8 @@
             "line": 52,
             "name": "preencho os campos de metodo de entrega",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 140000000
             }
           },
           {
@@ -329,7 +321,8 @@
             "line": 53,
             "name": "clico no botão de  cadastra-se para fazer entrega",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 105000000
             }
           },
           {
@@ -338,249 +331,8 @@
             "line": 54,
             "name": "aparece  mensagem de erro do compo do cep",
             "result": {
-              "status": "skipped"
-            }
-          }
-        ]
-      },
-      {
-        "id": "validar-mensagem-de-erros;cadastrar-com--dados-pessoais,-endereço-e-método-de-entrega-sem-preencher-o-campo-de-número-do-endereço",
-        "keyword": "Scenario",
-        "line": 58,
-        "name": "Cadastrar com  Dados Pessoais, Endereço e Método de entrega sem preencher o campo de Número do Endereço",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 59,
-            "name": "acesso o site Buger Eats",
-            "result": {
               "status": "passed",
-              "duration": 246000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 60,
-            "name": "acesso o botão  de Cadastre-se para fazer entregas",
-            "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `#page-deliver > form > fieldset:nth-child(4) > ul > li:nth-child(2) > img`, but never found it.\n    at HomePage.clickButton (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:215:10)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:14:25)\n    at Context.resolveAndRunStepDefinition (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:20263:29)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:19584:35)"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 61,
-            "name": "acesso o formulário",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 62,
-            "name": "preencho os campos  de dados",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 63,
-            "name": "preencho os campos de endereço sem o número do endereço",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 64,
-            "name": "preencho os campos de metodo de entrega",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 65,
-            "name": "clico no botão de  cadastra-se para fazer entrega",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 66,
-            "name": "aparece  mensagem de erro do compo número do endereço",
-            "result": {
-              "status": "skipped"
-            }
-          }
-        ]
-      },
-      {
-        "id": "validar-mensagem-de-erros;cadastrar-com--dados-pessoais-,-endereço,-fazer--upload-de-cnh-e-não-escolher-metódo-de-entrega",
-        "keyword": "Scenario",
-        "line": 69,
-        "name": "Cadastrar com  Dados Pessoais , Endereço, fazer  Upload de CNH e não escolher Metódo de Entrega",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 70,
-            "name": "acesso o botão  de Cadastre-se para fazer entregas",
-            "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `#page-deliver > form > fieldset:nth-child(4) > ul > li:nth-child(2) > img`, but never found it.\n    at HomePage.clickButton (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:215:10)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:14:25)\n    at Context.resolveAndRunStepDefinition (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:20263:29)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:19584:35)"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 71,
-            "name": "acesso o formulário",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 72,
-            "name": "preencho os campos  de dados",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 73,
-            "name": "preencho os campos de endereço",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 74,
-            "name": "faço upload da CNH",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 75,
-            "name": "clico no botão de  cadastra-se para fazer entrega",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 76,
-            "name": "aparece  mensagem de erro  para selecionar método de entrega",
-            "result": {
-              "status": "skipped"
-            }
-          }
-        ]
-      },
-      {
-        "id": "validar-mensagem-de-erros;cadastrar-entregador-com--dados-pessoais,-endereço-e-método-de-entrega-sem-fazer-upload-da-cnh",
-        "keyword": "Scenario",
-        "line": 79,
-        "name": "Cadastrar entregador com  Dados Pessoais, Endereço e Método de entrega sem fazer upload da CNH",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 80,
-            "name": "acesso o site Buger Eats",
-            "result": {
-              "status": "passed",
-              "duration": 202000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 81,
-            "name": "acesso o botão  de Cadastre-se para fazer entregas",
-            "result": {
-              "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 30000ms: Expected to find element: `#page-deliver > form > fieldset:nth-child(4) > ul > li:nth-child(2) > img`, but never found it.\n    at HomePage.clickButton (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:215:10)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:14:25)\n    at Context.resolveAndRunStepDefinition (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:20263:29)\n    at Context.eval (https://buger-eats.vercel.app/__cypress/tests?p=cypress/integration/features/validationError.feature:19584:35)"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 82,
-            "name": "acesso o formulário",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 83,
-            "name": "preencho os campos  de dados",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 84,
-            "name": "preencho os campos de endereço",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 85,
-            "name": "preencho os campos de metodo de entrega",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 86,
-            "name": "clico no botão de  cadastra-se para fazer entrega",
-            "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 87,
-            "name": "aparece  mensagem  para poder fazer upload da cnh",
-            "result": {
-              "status": "skipped"
+              "duration": 10000000
             }
           }
         ]

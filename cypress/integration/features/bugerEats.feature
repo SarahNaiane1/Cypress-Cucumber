@@ -12,7 +12,7 @@ Feature: Cadastrar Usuários para se tornar entregador
         When clico no botão de  cadastra-se para fazer entrega
         Then aparece modal informando que foi enviado dados
 
-    
+   
 
 
 

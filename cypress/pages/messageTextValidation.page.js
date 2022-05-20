@@ -79,7 +79,8 @@ class ValidationError {
 
   alertErrorNumber() {
     cy.get(".alert-error").should(
-      "have.text", "É necessário informar o número do endereço"
+      "have.text",
+      "É necessário informar o número do endereço"
     );
   }
 
@@ -87,8 +88,12 @@ class ValidationError {
     cy.get(".alert-error").should("have.text", "Selecione o método de entrega");
   }
 
+  unfilledUploadDriverLicense() {
+    cy.get('img[alt="Moto"]').click();
+  }
+
   alertErrorUploadDriverLicense() {
-    cy.get("#page-deliver > form > span").should("have.text", "Adicione uma foto da sua CNH");
+    cy.get(".alert-error").should("have.text", "Adicione uma foto da sua CNH");
   }
 }
 

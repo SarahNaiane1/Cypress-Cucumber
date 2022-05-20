@@ -1,0 +1,102 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Cadastrar Usuários para se tornar entregador",
+    "line": 1,
+    "id": "cadastrar-usuários-para-se-tornar-entregador",
+    "tags": [],
+    "uri": "bugerEats.feature",
+    "elements": [
+      {
+        "id": "cadastrar-usuários-para-se-tornar-entregador;cadastrar-dados-pessoais,-endereço-e-método-de-entrega",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Cadastrar Dados Pessoais, Endereço e Método de entrega",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "acesso o site Buger Eats",
+            "result": {
+              "status": "passed",
+              "duration": 1365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "acesso o botão  de Cadastre-se para fazer entregas",
+            "result": {
+              "status": "passed",
+              "duration": 745000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "acesso o formulário",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "preencho os campos  de dados",
+            "result": {
+              "status": "passed",
+              "duration": 1387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "preencho os campos de endereço",
+            "result": {
+              "status": "passed",
+              "duration": 1004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "preencho os campos de metodo de entrega",
+            "result": {
+              "status": "passed",
+              "duration": 158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "clico no botão de  cadastra-se para fazer entrega",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "aparece modal informando que foi enviado dados",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

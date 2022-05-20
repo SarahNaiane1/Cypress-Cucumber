@@ -32,7 +32,7 @@ class HomePage {
   }
 
   clickButton() {
-    cy.get('a[href="/deliver"]').wait(600).click();
+    cy.get("#page-home > div > main > a").wait(600).click();
   }
 
   acessForm() {
@@ -95,12 +95,16 @@ class HomePage {
   ciclkButtomRegister() {
     cy.get('form button[type="submit"]').click();
   }
-  
+
   modal() {
     cy.get(".swal2-container .swal2-html-container").should(
       "have.text",
       modalText
     );
+    
+    cy.get(
+      "body > div.swal2-container.swal2-center.swal2-backdrop-show > div > div.swal2-actions > button.swal2-confirm.swal2-styled"
+    ).click();
   }
 
   individualTaxpayerRegistrationDisable() {

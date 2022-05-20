@@ -95,6 +95,24 @@ class ValidationError {
   alertErrorUploadDriverLicense() {
     cy.get(".alert-error").should("have.text", "Adicione uma foto da sua CNH");
   }
+
+  clickOnThreeTypes() {
+    cy.get('img[alt="Moto"]').click();
+    cy.get('img[alt="Bicicleta"]').click();
+    cy.get('img[alt="Van/Carro"]').click();
+  }
+
+  alertErrorClickOnTypes() {
+    cy.get(".alert-error").should(
+      "have.text",
+      "Oops! Selecione apenas um método de entrega"
+    );
+  }
+
+  clickOnTwoTypes() {
+    cy.get('img[alt="Moto"]').click();
+    cy.get('img[alt="Bicicleta"]').click();
+  }
 }
 
 export default new ValidationError();

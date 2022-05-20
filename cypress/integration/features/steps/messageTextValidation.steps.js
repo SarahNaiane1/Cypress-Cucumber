@@ -107,3 +107,24 @@ And("clico no metodo de entrega", () => {
 Then("aparece  mensagem  para poder fazer upload da cnh", () => {
   validationErrorPage.alertErrorUploadDriverLicense();
 });
+
+//SCENARIO SLECIONAR TRÊS TIPOS DE MÉTODOS DE ENTREGA
+
+But('clico em tres tipos de metodo de entrega', () => {
+  validationErrorPage.clickOnThreeTypes();
+});
+
+Then('aparece  mensagem de erro  para selecionar um método de entrega', () => {
+    validationErrorPage.alertErrorClickOnTypes();
+  }
+);
+
+//SCENARIO SLECIONAR DOIS TIPOS DE MÉTODOS DE ENTREGA
+But('clico em dois tipos de metodo de entrega', () => {
+  validationErrorPage.clickOnTwoTypes();
+});
+
+Then('aparece  mensagem de erro  para selecionar um método de entrega', () => {
+    validationErrorPage.alertErrorClickOnTypes();
+  }
+);

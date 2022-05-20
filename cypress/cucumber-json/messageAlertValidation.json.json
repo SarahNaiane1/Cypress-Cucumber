@@ -10,7 +10,7 @@
       {
         "id": "validar-mensagem-de-erros;clicar-no-botão-de-cadastra-se-sem-preencher-formularío-com-nenhum-dado",
         "keyword": "Scenario",
-        "line": 4,
+        "line": 8,
         "name": "Clicar no botão de Cadastra-se sem preencher formularío com nenhum dado",
         "tags": [],
         "type": "scenario",
@@ -18,17 +18,77 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 3,
             "name": "acesso o site Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 442000000
+              "duration": 203000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 6,
+            "line": 4,
+            "name": "acesso o botão  de Cadastre-se para fazer entregas",
+            "result": {
+              "status": "passed",
+              "duration": 693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "acesso o formulário",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "clico no botão de  cadastra-se para fazer entrega",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "aparece mensagems de erros dos campos que não foram preenchidos",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validar-mensagem-de-erros;cadastrar-entregar-com--dados-pessoais,-endereço-e-método-de-entrega-sem-preencher-o-campo-de-cpf",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Cadastrar entregar com  Dados Pessoais, Endereço e Método de entrega sem preencher o campo de CPF",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "acesso o site Buger Eats",
+            "result": {
+              "status": "passed",
+              "duration": 183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
             "name": "acesso o botão  de Cadastre-se para fazer entregas",
             "result": {
               "status": "passed",
@@ -38,67 +98,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
-            "name": "acesso o formulário",
-            "result": {
-              "status": "passed",
-              "duration": 13000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 8,
-            "name": "clico no botão de  cadastra-se para fazer entrega",
-            "result": {
-              "status": "passed",
-              "duration": 88000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 9,
-            "name": "aparece mensagems de erros dos campos que não foram preenchidos",
-            "result": {
-              "status": "passed",
-              "duration": 12000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "validar-mensagem-de-erros;cadastrar-entregar-com--dados-pessoais,-endereço-e-método-de-entrega-sem-preencher-o-campo-de-cpf",
-        "keyword": "Scenario",
-        "line": 12,
-        "name": "Cadastrar entregar com  Dados Pessoais, Endereço e Método de entrega sem preencher o campo de CPF",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 14,
-            "name": "acesso o site Buger Eats",
-            "result": {
-              "status": "passed",
-              "duration": 194000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 15,
-            "name": "acesso o botão  de Cadastre-se para fazer entregas",
-            "result": {
-              "status": "passed",
-              "duration": 693000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 16,
+            "line": 5,
             "name": "acesso o formulário",
             "result": {
               "status": "passed",
@@ -108,51 +108,51 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 17,
+            "line": 14,
             "name": "preencho os campos  de dados sem preencher CPF",
             "result": {
               "status": "passed",
-              "duration": 1205000000
+              "duration": 1071000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 18,
+            "line": 15,
             "name": "preencho os campos de endereço",
             "result": {
               "status": "passed",
-              "duration": 819000000
+              "duration": 886000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 19,
+            "line": 16,
             "name": "preencho os campos de metodo de entrega",
             "result": {
               "status": "passed",
-              "duration": 116000000
+              "duration": 101000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 20,
+            "line": 17,
             "name": "clico no botão de  cadastra-se para fazer entrega",
             "result": {
               "status": "passed",
-              "duration": 125000000
+              "duration": 88000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 21,
+            "line": 18,
             "name": "aparece  mensagem de erro do compo do cpf",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 12000000
             }
           }
         ]
@@ -160,7 +160,7 @@
       {
         "id": "validar-mensagem-de-erros;cadastrar-entregar-com--dados-pessoais,-endereço-e-método-de-entrega-sem-preencher-o-campo-de-nome",
         "keyword": "Scenario",
-        "line": 24,
+        "line": 21,
         "name": "Cadastrar entregar com  Dados Pessoais, Endereço e Método de entrega sem preencher o campo de Nome",
         "tags": [],
         "type": "scenario",
@@ -168,27 +168,27 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 25,
+            "line": 3,
             "name": "acesso o site Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 273000000
+              "duration": 173000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 26,
+            "line": 4,
             "name": "acesso o botão  de Cadastre-se para fazer entregas",
             "result": {
               "status": "passed",
-              "duration": 697000000
+              "duration": 707000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 27,
+            "line": 5,
             "name": "acesso o formulário",
             "result": {
               "status": "passed",
@@ -198,141 +198,51 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 28,
+            "line": 22,
             "name": "preencho os campos  de dados sem preencher o nome",
             "result": {
               "status": "passed",
-              "duration": 945000000
+              "duration": 1045000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 29,
+            "line": 23,
             "name": "preencho os campos de endereço",
             "result": {
               "status": "passed",
-              "duration": 790000000
+              "duration": 931000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 30,
+            "line": 24,
             "name": "preencho os campos de metodo de entrega",
             "result": {
               "status": "passed",
-              "duration": 107000000
+              "duration": 134000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 31,
+            "line": 25,
             "name": "clico no botão de  cadastra-se para fazer entrega",
             "result": {
               "status": "passed",
-              "duration": 87000000
+              "duration": 101000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 32,
+            "line": 26,
             "name": "aparece  mensagem de erro do compo do nome",
             "result": {
               "status": "passed",
-              "duration": 11000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "validar-mensagem-de-erros;cadastrar-entregar-com--dados-pessoais,-endereço-e-método-de-entrega-sem-preencher-o-campo-de-e-mail",
-        "keyword": "Scenario",
-        "line": 35,
-        "name": "Cadastrar entregar com  Dados Pessoais, Endereço e Método de entrega sem preencher o campo de E-mail",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 36,
-            "name": "acesso o site Buger Eats",
-            "result": {
-              "status": "passed",
-              "duration": 230000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 37,
-            "name": "acesso o botão  de Cadastre-se para fazer entregas",
-            "result": {
-              "status": "passed",
-              "duration": 691000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 38,
-            "name": "acesso o formulário",
-            "result": {
-              "status": "passed",
-              "duration": 12000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 39,
-            "name": "preencho os campos  de dados sem preencher o email",
-            "result": {
-              "status": "passed",
-              "duration": 854000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 40,
-            "name": "preencho os campos de endereço",
-            "result": {
-              "status": "passed",
-              "duration": 781000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 41,
-            "name": "preencho os campos de metodo de entrega",
-            "result": {
-              "status": "passed",
-              "duration": 110000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 42,
-            "name": "clico no botão de  cadastra-se para fazer entrega",
-            "result": {
-              "status": "passed",
-              "duration": 153000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 43,
-            "name": "aparece  mensagem de erro do compo do email",
-            "result": {
-              "status": "passed",
-              "duration": 9000000
+              "duration": 16000000
             }
           }
         ]
@@ -340,7 +250,7 @@
       {
         "id": "validar-mensagem-de-erros;cadastrar-entregar-com--dados-pessoais,-endereço-e-método-de-entrega-sem-preencher-o-campo-de-cep",
         "keyword": "Scenario",
-        "line": 46,
+        "line": 37,
         "name": "Cadastrar entregar com  Dados Pessoais, Endereço e Método de entrega sem preencher o campo de CEP",
         "tags": [],
         "type": "scenario",
@@ -348,27 +258,27 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 47,
+            "line": 3,
             "name": "acesso o site Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 207000000
+              "duration": 824000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 48,
+            "line": 4,
             "name": "acesso o botão  de Cadastre-se para fazer entregas",
             "result": {
               "status": "passed",
-              "duration": 692000000
+              "duration": 744000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 49,
+            "line": 5,
             "name": "acesso o formulário",
             "result": {
               "status": "passed",
@@ -378,118 +288,38 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 50,
+            "line": 38,
             "name": "preencho os campos  de dados",
             "result": {
               "status": "passed",
-              "duration": 1195000000
+              "duration": 1316000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 51,
+            "line": 39,
             "name": "preencho os campos de endereço sem preencher o cep",
             "result": {
               "status": "passed",
-              "duration": 513000000
+              "duration": 587000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 52,
+            "line": 40,
             "name": "preencho os campos de metodo de entrega",
             "result": {
               "status": "passed",
-              "duration": 98000000
+              "duration": 104000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 53,
+            "line": 41,
             "name": "clico no botão de  cadastra-se para fazer entrega",
-            "result": {
-              "status": "passed",
-              "duration": 99000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 54,
-            "name": "aparece  mensagem de erro do compo do cep",
-            "result": {
-              "status": "passed",
-              "duration": 9000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "validar-mensagem-de-erros;cadastrar-com--dados-pessoais,-endereço-e-método-de-entrega-sem-preencher-o-campo-de-número-do-endereço",
-        "keyword": "Scenario",
-        "line": 58,
-        "name": "Cadastrar com  Dados Pessoais, Endereço e Método de entrega sem preencher o campo de Número do Endereço",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 59,
-            "name": "acesso o site Buger Eats",
-            "result": {
-              "status": "passed",
-              "duration": 162000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 60,
-            "name": "acesso o botão  de Cadastre-se para fazer entregas",
-            "result": {
-              "status": "passed",
-              "duration": 693000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 61,
-            "name": "acesso o formulário",
-            "result": {
-              "status": "passed",
-              "duration": 13000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 62,
-            "name": "preencho os campos  de dados",
-            "result": {
-              "status": "passed",
-              "duration": 1200000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 63,
-            "name": "preencho os campos de endereço sem o número do endereço",
-            "result": {
-              "status": "passed",
-              "duration": 603000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 64,
-            "name": "preencho os campos de metodo de entrega",
             "result": {
               "status": "passed",
               "duration": 108000000
@@ -497,22 +327,12 @@
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "line": 65,
-            "name": "clico no botão de  cadastra-se para fazer entrega",
-            "result": {
-              "status": "passed",
-              "duration": 91000000
-            }
-          },
-          {
-            "arguments": [],
             "keyword": "Then ",
-            "line": 66,
-            "name": "aparece  mensagem de erro do compo número do endereço",
+            "line": 42,
+            "name": "aparece  mensagem de erro do compo do cep",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 28000000
             }
           }
         ]
@@ -520,7 +340,7 @@
       {
         "id": "validar-mensagem-de-erros;cadastrar-com--dados-pessoais-,-endereço,-fazer--upload-de-cnh-e-não-escolher-metódo-de-entrega",
         "keyword": "Scenario",
-        "line": 69,
+        "line": 54,
         "name": "Cadastrar com  Dados Pessoais , Endereço, fazer  Upload de CNH e não escolher Metódo de Entrega",
         "tags": [],
         "type": "scenario",
@@ -528,171 +348,181 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 70,
+            "line": 3,
             "name": "acesso o site Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 204000000
+              "duration": 529000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 71,
+            "line": 4,
             "name": "acesso o botão  de Cadastre-se para fazer entregas",
             "result": {
               "status": "passed",
-              "duration": 698000000
+              "duration": 707000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 72,
+            "line": 5,
             "name": "acesso o formulário",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 9000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 73,
+            "line": 55,
             "name": "preencho os campos  de dados",
             "result": {
               "status": "passed",
-              "duration": 1177000000
+              "duration": 1268000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 74,
+            "line": 56,
             "name": "preencho os campos de endereço",
             "result": {
               "status": "passed",
-              "duration": 773000000
+              "duration": 881000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 75,
+            "line": 57,
             "name": "faço upload da CNH",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 19000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 76,
+            "line": 58,
             "name": "clico no botão de  cadastra-se para fazer entrega",
             "result": {
               "status": "passed",
-              "duration": 108000000
+              "duration": 97000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 77,
+            "line": 59,
             "name": "aparece  mensagem de erro  para selecionar método de entrega",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 9000000
             }
           }
         ]
       },
       {
-        "id": "validar-mensagem-de-erros;cadastrar-entregador-com--dados-pessoais,-endereço-e-método-de-entrega-sem-fazer-upload-da-cnh",
+        "id": "validar-mensagem-de-erros;selecionar-três-tipos-de-métodos-de-entrega",
         "keyword": "Scenario",
-        "line": 80,
-        "name": "Cadastrar entregador com  Dados Pessoais, Endereço e Método de entrega sem fazer upload da CNH",
+        "line": 70,
+        "name": "Selecionar três tipos de Métodos de entrega",
         "tags": [],
         "type": "scenario",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 81,
+            "line": 3,
             "name": "acesso o site Buger Eats",
             "result": {
               "status": "passed",
-              "duration": 225000000
+              "duration": 1486000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 82,
+            "line": 4,
             "name": "acesso o botão  de Cadastre-se para fazer entregas",
             "result": {
               "status": "passed",
-              "duration": 691000000
+              "duration": 705000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 83,
+            "line": 5,
             "name": "acesso o formulário",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 10000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 84,
+            "line": 71,
             "name": "preencho os campos  de dados",
             "result": {
               "status": "passed",
-              "duration": 1192000000
+              "duration": 1314000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 85,
+            "line": 72,
             "name": "preencho os campos de endereço",
             "result": {
               "status": "passed",
-              "duration": 771000000
+              "duration": 911000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "But ",
+            "line": 73,
+            "name": "clico em tres tipos de metodo de entrega",
+            "result": {
+              "status": "passed",
+              "duration": 274000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 86,
-            "name": "clico no metodo de entrega",
+            "line": 74,
+            "name": "faço upload da CNH",
             "result": {
               "status": "passed",
-              "duration": 90000000
+              "duration": 22000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 87,
+            "line": 75,
             "name": "clico no botão de  cadastra-se para fazer entrega",
             "result": {
               "status": "passed",
-              "duration": 87000000
+              "duration": 101000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 88,
-            "name": "aparece  mensagem  para poder fazer upload da cnh",
+            "line": 76,
+            "name": "aparece  mensagem de erro  para selecionar um método de entrega",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 23000000
             }
           }
         ]
